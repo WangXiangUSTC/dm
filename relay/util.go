@@ -57,6 +57,7 @@ func searchLastCompleteEventPos(file string) (uint32, error) {
 	parser2 := replication.NewBinlogParser()
 	parser2.SetVerifyChecksum(true)
 	parser2.SetUseDecimal(true)
+	parser2.SetIgnoreJSONDecodeError(true)
 
 	err := parser2.ParseFile(file, 4, onEventFunc)
 	if strings.Contains(err.Error(), "err EOF") {

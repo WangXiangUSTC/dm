@@ -461,6 +461,7 @@ func GenTableMapEvent(header *replication.EventHeader, latestPos uint32, tableID
 
 	parse2 := replication.NewBinlogParser()
 	parse2.SetVerifyChecksum(true)
+	parser2.SetIgnoreJSONDecodeError(true)
 	// parse FormatDescriptionEvent
 	_, err = parse2.ParseSingleEvent(bytes.NewReader(formatDescEv.RawData), onEventFunc)
 	if err != nil {
@@ -629,6 +630,7 @@ func GenRowsEvent(header *replication.EventHeader, latestPos uint32, eventType r
 
 	parse2 := replication.NewBinlogParser()
 	parse2.SetVerifyChecksum(true)
+	parser2.SetIgnoreJSONDecodeError(true)
 
 	// parse FormatDescriptionEvent
 	formatDescEv, err := GenFormatDescriptionEvent(header, 4)

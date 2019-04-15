@@ -242,10 +242,13 @@ func (m *Mydumper) constructArgs() []string {
 // logArgs constructs arguments for log from SubTaskConfig
 func (m *Mydumper) logArgs(cfg *config.SubTaskConfig) []string {
 	args := make([]string, 0, 4)
+	/*
 	if len(cfg.LogFile) > 0 {
 		// for writing mydumper output into stderr (fixme: won't work on Windows, if anyone cares)
 		args = append(args, "--logfile", "/dev/stderr")
 	}
+	*/
+	args = append(args, "--logfile", "/tmp/mydumper.log")
 	switch strings.ToLower(cfg.LogLevel) {
 	case "fatal", "error":
 		args = append(args, "--verbose", "1")

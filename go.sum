@@ -3,6 +3,12 @@ github.com/BurntSushi/toml v0.3.1 h1:WXkYYl6Yr3qBf1K79EBnL4mak0OimBfB0XUf9Vl28OQ
 github.com/BurntSushi/toml v0.3.1/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03qcyfWMU=
 github.com/StackExchange/wmi v0.0.0-20180725035823-b12b22c5341f h1:5ZfJxyXo8KyX8DgGXC5B7ILL8y51fci/qYz2B4j8iLY=
 github.com/StackExchange/wmi v0.0.0-20180725035823-b12b22c5341f/go.mod h1:3eOhrUMpNV+6aFIbp5/iudMxNCF27Vw2OZgy4xEx0Fg=
+github.com/WangXiangUSTC/go-mysql v0.0.0-20190409033120-a0b71554c430 h1:KvSynXVgextMRJ9Pd3pjukngW0Jr2NisO9zW2btuETg=
+github.com/WangXiangUSTC/go-mysql v0.0.0-20190409033120-a0b71554c430/go.mod h1:/b8ZcWjAShCcHp2dWpjb1vTlNyiG03UeHEQr2jteOpI=
+github.com/WangXiangUSTC/go-mysql v0.0.0-20190409034248-1cacc3c5f272 h1:r25trqoiLTEQMEYlTd4HV9dA8qI+bC+eqlR0/otNrYE=
+github.com/WangXiangUSTC/go-mysql v0.0.0-20190409034248-1cacc3c5f272/go.mod h1:/b8ZcWjAShCcHp2dWpjb1vTlNyiG03UeHEQr2jteOpI=
+github.com/WangXiangUSTC/go-mysql v0.0.0-20190409035628-b37ffc0a0b72 h1:fNBSbH0eu6vmE1m67Z6e6hEq4LK6uH9PMZsImwPzcV0=
+github.com/WangXiangUSTC/go-mysql v0.0.0-20190409035628-b37ffc0a0b72/go.mod h1:/b8ZcWjAShCcHp2dWpjb1vTlNyiG03UeHEQr2jteOpI=
 github.com/alecthomas/template v0.0.0-20160405071501-a0175ee3bccc h1:cAKDfWh5VpdgMhJosfJnn5/FoN2SRZ4p7fJNX58YPaU=
 github.com/alecthomas/template v0.0.0-20160405071501-a0175ee3bccc/go.mod h1:LOuyumcjzFXgccqObfd/Ljyb9UuFJ6TxHnclSeseNhc=
 github.com/alecthomas/units v0.0.0-20151022065526-2efee857e7cf h1:qet1QNfXsQxTZqLG4oE62mJzwPIB8+Tee4RNCL9ulrY=

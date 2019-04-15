@@ -72,6 +72,7 @@ type BinlogReader struct {
 func NewBinlogReader(cfg *BinlogReaderConfig) *BinlogReader {
 	ctx, cancel := context.WithCancel(context.Background())
 	parser := replication.NewBinlogParser()
+	parser.SetIgnoreJSONDecodeError(true)
 	parser.SetVerifyChecksum(true)
 	// useDecimal must set true.  ref: https://github.com/pingcap/tidb-enterprise-tools/pull/272
 	parser.SetUseDecimal(true)

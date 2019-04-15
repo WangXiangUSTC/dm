@@ -33,3 +33,5 @@ require (
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0
 	gopkg.in/yaml.v2 v2.2.2
 )
+
+replace github.com/siddontang/go-mysql v0.0.0-20190312052122-c6ab05a85eb8 => github.com/WangXiangUSTC/go-mysql v0.0.0-20190409035628-b37ffc0a0b72
